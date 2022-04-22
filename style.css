@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(to right, #161618, #212124);
+  color: #f5f5f5;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  padding: 25px;
+}
+
+#slider {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#middle {
+  background-color: #818181;
+  column-gap: 10px;
+  padding: 100px 25px;
+}
+
+#middle .card {
+  background-color: #818181;
+  padding-top: 25px;
+}
+
+#middle .card:hover {
+  box-shadow: 5px 5px 15px #6e6e6e, -5px -5px 15px #949494;
+}
+
+#middle button {
+  background-color: #818181;
+  border: 1px solid #F5F5F5;
+  border-radius: 30px;
+  color: #F5F5F5;
+  text-decoration: none;
+  padding: 20px 50px;
+}
+/*
+#middle button:hover {
+  background-color: #212124;
+  border: 1px solid #212124;
+  color: #3DA21A;
+} */
+
+.carousel-inner {
+  transition: 0.04s;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+#greet {
+  padding: 100px 550px;
+}
+
+#greet .card {
+  background-color: #FFFFFF;
+  color: #161618;
+}
+
+#testies {
+  padding: 100px 0;
+}
+#testies .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#testies .card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#testies .card {
+  color: #212124;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  width: 22rem;
+  height: 30rem;
+}
+
+#testies .carousel-inner {
+  padding: 1em;
+}
+
+#testies .carousel {
+  height: 550px;
+}
+
+#banner {
+  background-color: #013220;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#contact {
+  padding: 100px 100px;
+}
+
+#contact button {
+  background-color: #212124;
+  text-decoration: none;
+  color: #3DA21A;
+  border: 1px solid #3DA21A;
+  padding: 10px 20px;
+}
+
+#contact button:hover {
+  background-color: #3DA21A;
+  color: #212124;
+}
+
+form {
+  padding: 50px 100px;
+}
+
+input {
+  width: 600px;
+  padding: 15px 15px;
+}
+
+textarea {
+  padding: 15px 15px;
+}
+
+footer {
+  background-color: #013220;
+  text-align: center;
+  padding: 100px 200px 20px 200px;
+}
